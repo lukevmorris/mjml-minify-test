@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:unminified": "mjml email.mjml --config.useMjmlConfigOptions -o email.html",
-    "build:minified": "mjml email.mjml --config.minify --config.useMjmlConfigOptions -o email.html"
+    "build:unminified": "mjml email.mjml --config.useMjmlConfigOptions -o unminified.html",
+    "build:minified": "mjml email.mjml --config.minify --config.useMjmlConfigOptions -o minified.html"
   },
   "author": "",
   "license": "ISC",
